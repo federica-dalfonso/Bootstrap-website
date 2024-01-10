@@ -1,0 +1,109 @@
+/*general*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e6ed;
+}
+
+/*navbar*/
+a.nav-link {
+    color: #000 !important;
+}
+
+a.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+button.dropdown-toggle::after {
+    display: none;
+}
+
+img.navbar-profile {
+    width: 2.5em;
+    height: 2.5em;
+    object-fit: cover;
+}
+
+i {
+    color: #79758F;
+}
+
+i.bg-custom {
+    background-color: #efeef1;
+}
+
+span.bg-color {
+    background-color: #7550FE;
+}
+
+/*hero*/
+div.hero-bg-color {
+    background-color: #7550FE;
+}
+
+button.btn-hero-one {
+    background-color: #1ACB98;
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+
+button.btn-hero-two {
+    background-color: white;
+    border: none;
+    padding: 0.5em 1em;
+}
+
+/*banner*/
+.fa-video, .fa-user-group, .my-clock {
+    background-color: #FFEEDA;
+    padding: 0.8em;
+    border-radius: 50%;
+    color: #C18184;
+}
+
+/*section cards*/
+img.card-profile-img {
+    width: 1.5em;
+}
+
+span.detail-size {
+    font-size: 0.8rem;
+}
+
+i.fa-signal {
+    color: #7550FE;
+}
+
+/*carousel items*/
+button.carousel-control-next, button.carousel-control-prev {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+button.carousel-control-prev {
+    top: 50%;
+    left: -5%;
+}
+
+button.carousel-control-next {
+    top: 50%;
+    left: 101%;
+}
+
+/*carousel responsive layout*/
+@media screen and (min-width: 576px) {
+    div.row {
+        flex-wrap: nowrap;
+    }
+}
+
+/*footer*/
+span.text-muted {
+    font-size: 0.8rem;
+}
