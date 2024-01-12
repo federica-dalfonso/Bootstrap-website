@@ -66,18 +66,21 @@
            <div class="d-flex d-sm-flex align-items-center">
                 <div class="position-relative">
                     <i class="fa-regular fa-bell px-3 py-3 rounded-circle bg-custom"></i>
-                    <span class="position-absolute top-0 end-0 bg-color p-1 rounded-circle"></span>                
+                    <span class="circle-purple-position bg-purple border border-2 border-light p-1 rounded-circle"></span>                
                 </div>
                 
 
                 <div class="container dropdown">
                     <button class="dropdown-toggle py-0 border-0 rounded-circle position-relative" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="assets/avatar-1.jpg" class="navbar-profile rounded-circle" alt="user profile">
-                        <span class="position-absolute top-100 end-0 bg-success p-1 rounded-circle"></span>
+                        <span class="circle-green-position bg-success p-1 rounded-circle border border-2 border-light"></span>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
                         <li class="d-flex align-items-center">
-                            <img src="assets/avatar-1.jpg" class="navbar-profile rounded-circle ms-3" alt="user profile">
+                            <div class="position-relative">
+                                <img src="assets/avatar-1.jpg" class="navbar-profile rounded-circle ms-3" alt="user profile">
+                                <span class="circle-green-position bg-success p-1 rounded-circle border border-2 border-light"></span>
+                            </div>                            
                             <div class="d-flex flex-column align-items-start">
                                 <p class="dropdown-header py-0 ps-2 text-dark fw-bold">Annette Black</p>
                                 <p class="dropdown-header py-0 ps-2">annette@geeksui.com</p>
@@ -103,7 +106,7 @@
 <!--HERO-->
 <div class="container-fluid hero-bg-color">
     <div class="row align-items-center flex-lg-row flex-sm-column">
-        <div class="col-lg-4 col-sm-12 offset-lg-1">
+        <div class="col-lg-4 col-sm-12 offset-lg-1 pt-sm-4 ps-sm-4 pb-sm-4">
             <h1 class="text-light fw-bold">Welcome Web Students!</h1>  
             <p class="text-light">Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.</p>
             <div>
@@ -120,21 +123,21 @@
 <!--BANNER-->
 <div class="container-fluid py-3 bg-white shadow-sm">
     <div class="container d-flex flex-lg-row flex-sm-column">
-        <div class="d-flex align-items-center pe-5 pb-sm-2">
+        <div class="d-flex align-items-center pe-5 pb-sm-3">
             <i class="fa-solid fa-video"></i>
             <div class="ps-3">
                 <h6 class="mb-0">30,000 online courses</h6>
                 <p class="mb-0">Enjoy a variety of fresh topics</p>
             </div>
         </div>
-        <div class="d-flex align-items-center pe-5 pb-sm-2">            
+        <div class="d-flex align-items-center pe-5 pb-sm-3">            
             <i class="fa-solid fa-user-group"></i>
             <div class="ps-3">
                 <h6 class="mb-0">Expert instruction</h6>
                 <p class="mb-0">Find the right instructor for you</p>
             </div>
         </div>
-        <div class="d-flex align-items-center pb-sm-2">
+        <div class="d-flex align-items-center pb-sm-3">
             <i class="fa-regular fa-clock my-clock"></i>
             <div class="ps-3">
                 <h6 class="mb-0">Lifetime Access</h6>
@@ -297,108 +300,108 @@
 
                 <div class="carousel-item">
                     <div class="row">
-
+    
                         <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="card">
-                                <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                            <div class="card h-100">
+                                <img src="assets/course-react.jpg" class="card-img-top" alt="course">
                                 <div class="card-body px-0 pb-2">
-                                    <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
+                                    <h6 class="card-title fs-6 px-3">How to easily create a website with React</h6>
                                     <div class="px-3 pb-2">
-                                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
+                                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>3h 55m</span>
                                         <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
                                     </div>
                                     <div class="px-3  pb-1">
                                         <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                         <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                         <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
-                                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                        <span class="detail-size text-warning">2.5</span>
+                                        <span class="detail-size text-warning">4.5</span>
                                         <span class="detail-size text-secondary">(1,500)</span>
                                     </div>
                                     <div class="ps-3 pb-3">
-                                        <span class="detail-size fw-bold">$500</span>
-                                        <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                                        <span class="detail-size fw-bold">$600</span>
+                                        <span class="detail-size text-decoration-line-through text-secondary">$750</span>
                                     </div> 
                                 </div>                       
                                 <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
                                     <div>
-                                        <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                        <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                                        <img src="assets/avatar-2.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                        <span class="detail-size text-secondary">April Noms</span>  
                                     </div>                        
                                     <i class="fa-regular fa-bookmark fa-xs"></i>
                                 </div>        
-                            </div>     
+                            </div>       
                         </div>
-
+    
                         <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="card">
-                                <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                            <div class="card h-100">
+                                <img src="assets/course-node.jpg" class="card-img-top" alt="course">
                                 <div class="card-body px-0 pb-2">
-                                    <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
+                                    <h6 class="card-title fs-6 px-3">Beginning Node.js, Express & MongoDB Development</h6>
                                     <div class="px-3 pb-2">
-                                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
-                                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 00m</span>
+                                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
                                     </div>
                                     <div class="px-3  pb-1">
                                         <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                         <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
+                                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                         <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                        <span class="detail-size text-warning">2.5</span>
-                                        <span class="detail-size text-secondary">(1,500)</span>
+                                        <span class="detail-size text-warning">4.0</span>
+                                        <span class="detail-size text-secondary">(15,700)</span>
                                     </div>
                                     <div class="ps-3 pb-3">
-                                        <span class="detail-size fw-bold">$500</span>
-                                        <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                                        <span class="detail-size fw-bold">$800</span>
+                                        <span class="detail-size text-decoration-line-through text-secondary">$950</span>
                                     </div> 
                                 </div>                       
                                 <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
                                     <div>
-                                        <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                        <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                                        <img src="assets/avatar-3.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                        <span class="detail-size text-secondary">Sina Ray</span>  
                                     </div>                        
                                     <i class="fa-regular fa-bookmark fa-xs"></i>
                                 </div>        
                             </div>     
                         </div>
-
+    
                         <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="card">
-                                <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                            <div class="card h-100">
+                                <img src="assets/course-gatsby.jpg" class="card-img-top" alt="course">
                                 <div class="card-body px-0 pb-2">
-                                    <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
+                                    <h6 class="card-title fs-6 px-3">Revolutionize how you build the web</h6>
                                     <div class="px-3 pb-2">
-                                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
-                                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>1h 46m</span>
+                                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
                                     </div>
                                     <div class="px-3  pb-1">
                                         <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                         <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
                                         <i class="fa-regular fa-star fa-2xs text-warning"></i>
                                         <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                        <span class="detail-size text-warning">2.5</span>
-                                        <span class="detail-size text-secondary">(1,500)</span>
+                                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                                        <span class="detail-size text-warning">2.0</span>
+                                        <span class="detail-size text-secondary">(16,500)</span>
                                     </div>
                                     <div class="ps-3 pb-3">
-                                        <span class="detail-size fw-bold">$500</span>
-                                        <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                                        <span class="detail-size fw-bold">$800</span>
+                                        <span class="detail-size text-decoration-line-through text-secondary">$850</span>
                                     </div> 
                                 </div>                       
                                 <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
                                     <div>
-                                        <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                        <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                                        <img src="assets/avatar-6.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                        <span class="detail-size text-secondary">Jenny Wilson</span>  
                                     </div>                        
                                     <i class="fa-regular fa-bookmark fa-xs"></i>
                                 </div>        
-                            </div>     
+                            </div>       
                         </div>
-
+    
                         <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="card">
+                            <div class="card h-100">
                                 <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
                                 <div class="card-body px-0 pb-2">
                                     <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
@@ -595,32 +598,65 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
-                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                        <div class="card h-100">
+                            <img src="assets/course-react.jpg" class="card-img-top" alt="course">
                             <div class="card-body px-0 pb-2">
-                                <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
+                                <h6 class="card-title fs-6 px-3">How to easily create a website with React</h6>
                                 <div class="px-3 pb-2">
-                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
+                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>3h 55m</span>
                                     <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
                                 </div>
                                 <div class="px-3  pb-1">
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                     <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <span class="detail-size text-warning">2.5</span>
+                                    <span class="detail-size text-warning">4.5</span>
                                     <span class="detail-size text-secondary">(1,500)</span>
                                 </div>
                                 <div class="ps-3 pb-3">
-                                    <span class="detail-size fw-bold">$500</span>
-                                    <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                                    <span class="detail-size fw-bold">$600</span>
+                                    <span class="detail-size text-decoration-line-through text-secondary">$750</span>
                                 </div> 
                             </div>                       
                             <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
                                 <div>
-                                    <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                    <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                                    <img src="assets/avatar-2.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                    <span class="detail-size text-secondary">April Noms</span>  
+                                </div>                        
+                                <i class="fa-regular fa-bookmark fa-xs"></i>
+                            </div>        
+                        </div>       
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="card h-100">
+                            <img src="assets/course-node.jpg" class="card-img-top" alt="course">
+                            <div class="card-body px-0 pb-2">
+                                <h6 class="card-title fs-6 px-3">Beginning Node.js, Express & MongoDB Development</h6>
+                                <div class="px-3 pb-2">
+                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 00m</span>
+                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
+                                </div>
+                                <div class="px-3  pb-1">
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                                    <span class="detail-size text-warning">4.0</span>
+                                    <span class="detail-size text-secondary">(15,700)</span>
+                                </div>
+                                <div class="ps-3 pb-3">
+                                    <span class="detail-size fw-bold">$800</span>
+                                    <span class="detail-size text-decoration-line-through text-secondary">$950</span>
+                                </div> 
+                            </div>                       
+                            <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
+                                <div>
+                                    <img src="assets/avatar-3.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                    <span class="detail-size text-secondary">Sina Ray</span>  
                                 </div>                        
                                 <i class="fa-regular fa-bookmark fa-xs"></i>
                             </div>        
@@ -628,73 +664,40 @@
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
-                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                        <div class="card h-100">
+                            <img src="assets/course-gatsby.jpg" class="card-img-top" alt="course">
                             <div class="card-body px-0 pb-2">
-                                <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
+                                <h6 class="card-title fs-6 px-3">Revolutionize how you build the web</h6>
                                 <div class="px-3 pb-2">
-                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
-                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>1h 46m</span>
+                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
                                 </div>
                                 <div class="px-3  pb-1">
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
                                     <i class="fa-regular fa-star fa-2xs text-warning"></i>
                                     <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <span class="detail-size text-warning">2.5</span>
-                                    <span class="detail-size text-secondary">(1,500)</span>
+                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                                    <span class="detail-size text-warning">2.0</span>
+                                    <span class="detail-size text-secondary">(16,500)</span>
                                 </div>
                                 <div class="ps-3 pb-3">
-                                    <span class="detail-size fw-bold">$500</span>
-                                    <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                                    <span class="detail-size fw-bold">$800</span>
+                                    <span class="detail-size text-decoration-line-through text-secondary">$850</span>
                                 </div> 
                             </div>                       
                             <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
                                 <div>
-                                    <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                    <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                                    <img src="assets/avatar-6.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                    <span class="detail-size text-secondary">Jenny Wilson</span>  
                                 </div>                        
                                 <i class="fa-regular fa-bookmark fa-xs"></i>
                             </div>        
-                        </div>     
+                        </div>       
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
-                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
-                            <div class="card-body px-0 pb-2">
-                                <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
-                                <div class="px-3 pb-2">
-                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
-                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
-                                </div>
-                                <div class="px-3  pb-1">
-                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <span class="detail-size text-warning">2.5</span>
-                                    <span class="detail-size text-secondary">(1,500)</span>
-                                </div>
-                                <div class="ps-3 pb-3">
-                                    <span class="detail-size fw-bold">$500</span>
-                                    <span class="detail-size text-decoration-line-through text-secondary">$600</span>
-                                </div> 
-                            </div>                       
-                            <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
-                                <div>
-                                    <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                    <span class="detail-size text-secondary">Brooklyn Simmons</span>  
-                                </div>                        
-                                <i class="fa-regular fa-bookmark fa-xs"></i>
-                            </div>        
-                        </div>     
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
+                        <div class="card h-100">
                             <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
                             <div class="card-body px-0 pb-2">
                                 <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
@@ -890,32 +893,65 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
-                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                        <div class="card h-100">
+                            <img src="assets/course-react.jpg" class="card-img-top" alt="course">
                             <div class="card-body px-0 pb-2">
-                                <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
+                                <h6 class="card-title fs-6 px-3">How to easily create a website with React</h6>
                                 <div class="px-3 pb-2">
-                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
+                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>3h 55m</span>
                                     <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
                                 </div>
                                 <div class="px-3  pb-1">
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                     <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <span class="detail-size text-warning">2.5</span>
+                                    <span class="detail-size text-warning">4.5</span>
                                     <span class="detail-size text-secondary">(1,500)</span>
                                 </div>
                                 <div class="ps-3 pb-3">
-                                    <span class="detail-size fw-bold">$500</span>
-                                    <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                                    <span class="detail-size fw-bold">$600</span>
+                                    <span class="detail-size text-decoration-line-through text-secondary">$750</span>
                                 </div> 
                             </div>                       
                             <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
                                 <div>
-                                    <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                    <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                                    <img src="assets/avatar-2.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                    <span class="detail-size text-secondary">April Noms</span>  
+                                </div>                        
+                                <i class="fa-regular fa-bookmark fa-xs"></i>
+                            </div>        
+                        </div>       
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="card h-100">
+                            <img src="assets/course-node.jpg" class="card-img-top" alt="course">
+                            <div class="card-body px-0 pb-2">
+                                <h6 class="card-title fs-6 px-3">Beginning Node.js, Express & MongoDB Development</h6>
+                                <div class="px-3 pb-2">
+                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 00m</span>
+                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
+                                </div>
+                                <div class="px-3  pb-1">
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                                    <span class="detail-size text-warning">4.0</span>
+                                    <span class="detail-size text-secondary">(15,700)</span>
+                                </div>
+                                <div class="ps-3 pb-3">
+                                    <span class="detail-size fw-bold">$800</span>
+                                    <span class="detail-size text-decoration-line-through text-secondary">$950</span>
+                                </div> 
+                            </div>                       
+                            <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
+                                <div>
+                                    <img src="assets/avatar-3.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                    <span class="detail-size text-secondary">Sina Ray</span>  
                                 </div>                        
                                 <i class="fa-regular fa-bookmark fa-xs"></i>
                             </div>        
@@ -923,73 +959,40 @@
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
-                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                        <div class="card h-100">
+                            <img src="assets/course-gatsby.jpg" class="card-img-top" alt="course">
                             <div class="card-body px-0 pb-2">
-                                <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
+                                <h6 class="card-title fs-6 px-3">Revolutionize how you build the web</h6>
                                 <div class="px-3 pb-2">
-                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
-                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>1h 46m</span>
+                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
                                 </div>
                                 <div class="px-3  pb-1">
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
                                     <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
                                     <i class="fa-regular fa-star fa-2xs text-warning"></i>
                                     <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <span class="detail-size text-warning">2.5</span>
-                                    <span class="detail-size text-secondary">(1,500)</span>
+                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                                    <span class="detail-size text-warning">2.0</span>
+                                    <span class="detail-size text-secondary">(16,500)</span>
                                 </div>
                                 <div class="ps-3 pb-3">
-                                    <span class="detail-size fw-bold">$500</span>
-                                    <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                                    <span class="detail-size fw-bold">$800</span>
+                                    <span class="detail-size text-decoration-line-through text-secondary">$850</span>
                                 </div> 
                             </div>                       
                             <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
                                 <div>
-                                    <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                    <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                                    <img src="assets/avatar-6.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                                    <span class="detail-size text-secondary">Jenny Wilson</span>  
                                 </div>                        
                                 <i class="fa-regular fa-bookmark fa-xs"></i>
                             </div>        
-                        </div>     
+                        </div>       
                     </div>
 
                     <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
-                            <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
-                            <div class="card-body px-0 pb-2">
-                                <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
-                                <div class="px-3 pb-2">
-                                    <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
-                                    <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
-                                </div>
-                                <div class="px-3  pb-1">
-                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-solid fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <i class="fa-regular fa-star fa-2xs text-warning"></i>
-                                    <span class="detail-size text-warning">2.5</span>
-                                    <span class="detail-size text-secondary">(1,500)</span>
-                                </div>
-                                <div class="ps-3 pb-3">
-                                    <span class="detail-size fw-bold">$500</span>
-                                    <span class="detail-size text-decoration-line-through text-secondary">$600</span>
-                                </div> 
-                            </div>                       
-                            <div class="card-footer bg-white px-1 pt-3 d-flex align-items-center justify-content-between px-3">
-                                <div>
-                                    <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
-                                    <span class="detail-size text-secondary">Brooklyn Simmons</span>  
-                                </div>                        
-                                <i class="fa-regular fa-bookmark fa-xs"></i>
-                            </div>        
-                        </div>     
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="card">
+                        <div class="card h-100">
                             <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
                             <div class="card-body px-0 pb-2">
                                 <h6 class="card-title fs-6 px-3">GraphQL: introduction to graphQL for beginners</h6>
@@ -1034,12 +1037,12 @@
 <div class="container">
         <footer class="d-flex flex-lg-row flex-sm-column justify-content-between align-items-center py-3 border-top">
             <div class="col-md-4 d-flex align-items-center">
-              <span class="mb-3 mb-md-0 text-muted">© 2022 Geeks. All Rights reserved.</span>
+              <span class="mb-3 mb-md-0 text-muted mb-sm-0">© 2022 Geeks. All Rights reserved.</span>
             </div>
             <div>
-                <span class="text-muted pe-2">Privacy</span>
-                <span class="text-muted pe-2">Terms</span>
-                <span class="text-muted pe-2">Feedback</span>
+                <span class="text-muted pe-2 pe-sm-3">Privacy</span>
+                <span class="text-muted pe-2 pe-sm-3">Terms</span>
+                <span class="text-muted pe-2 pe-sm-3">Feedback</span>
                 <span class="text-muted">Support</span>
             </div>                    
         </footer>
